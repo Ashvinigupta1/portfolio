@@ -1,3 +1,212 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashvini Gupta | Frontend Developer</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Ashvini Gupta, a Frontend Developer skilled in HTML, CSS, JavaScript, and React."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="logo" href="#home">Ashvini<span>Gupta</span></a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle dark and light mode"
+        >
+          <span id="themeIcon">🌙</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-content fade-in">
+          <p class="eyebrow">Frontend Developer</p>
+          <h1>Hi, I'm <span>Ashvini Gupta</span></h1>
+          <p class="hero-subtitle">
+            I design and build modern, responsive web experiences using HTML,
+            CSS, JavaScript, and React.
+          </p>
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container grid-two reveal">
+          <div>
+            <h2>About Me</h2>
+            <p>
+              I'm a frontend developer passionate about creating clean,
+              user-friendly, and high-performance web interfaces. I enjoy
+              turning ideas into interactive products that solve real user
+              problems.
+            </p>
+            <p>
+              My goal is to grow as a developer by building scalable
+              applications, collaborating with great teams, and constantly
+              learning modern frontend tools and best practices.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Career Focus</h3>
+            <ul>
+              <li>Crafting responsive and accessible UIs</li>
+              <li>Building interactive React applications</li>
+              <li>Improving performance and user experience</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="container reveal">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-title">
+                <span class="skill-icon">🧱</span>
+                <h3>HTML</h3>
+              </div>
+              <div class="progress-bar"><span style="width: 95%"></span></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-title">
+                <span class="skill-icon">🎨</span>
+                <h3>CSS</h3>
+              </div>
+              <div class="progress-bar"><span style="width: 90%"></span></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-title">
+                <span class="skill-icon">⚡</span>
+                <h3>JavaScript</h3>
+              </div>
+              <div class="progress-bar"><span style="width: 88%"></span></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-title">
+                <span class="skill-icon">⚛️</span>
+                <h3>React</h3>
+              </div>
+              <div class="progress-bar"><span style="width: 85%"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="container reveal">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Portfolio Website</h3>
+              <p>
+                A personal portfolio site with responsive layout, smooth
+                scrolling, and dark/light theme support.
+              </p>
+              <p class="tech">HTML, CSS, JavaScript</p>
+              <a href="#" target="_blank" rel="noreferrer">Live Demo ↗</a>
+            </article>
+            <article class="project-card">
+              <h3>Task Manager App</h3>
+              <p>
+                A React-based productivity app to manage tasks with filtering,
+                status updates, and local storage persistence.
+              </p>
+              <p class="tech">React, JavaScript, CSS</p>
+              <a href="https://ashvinigupta1.github.io/task-manager-app/" target="_blank" rel="noreferrer">Live Demo ↗</a>
+            </article>
+            <article class="project-card">
+              <h3>Microsoft Clone</h3>
+              <p>
+                Microsoft homepage clone built with HTML, CSS, and JavaScript, featuring responsive design and a modern UI layout.
+              </p>
+              <p class="tech">JavaScript, html, CSS</p>
+              <a href="https://ashvinigupta1.github.io/microsoft/" target="_blank" rel="noreferrer">Live Demo ↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="resume section">
+        <div class="container resume-box reveal">
+          <h2>Resume</h2>
+          <p>Download my resume to learn more about my experience.</p>
+          <a class="btn btn-secondary" href="resume.pdf" download>Download Resume</a>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container reveal">
+          <h2>Contact</h2>
+          <div class="grid-two contact-grid">
+            <div class="contact-info">
+              <p><strong>Email:</strong> ashvinigupta78@gmail.com</p>
+              <p>
+                <strong>LinkedIn:</strong>
+                <a href="www.linkedin.com/in/ashvini-gupta-6825183b0" target="linkdin" rel="noreferrer">www.linkedin.com/in/ashvini-gupta-6825183b0</a>
+              </p>
+              <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Ashvinigupta1" target="_blank" rel="noreferrer">https://github.com/Ashvinigupta1</a>
+              </p>
+            </div>
+            <form class="contact-form" id="contactForm">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Ashvini Gupta. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -205,3 +414,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+>>>>>>> 0e1ff278deceb2c069cffb83759bc6352fa9e519
